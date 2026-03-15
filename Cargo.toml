@@ -4,5 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+image = "0.25.10"
 itertools = "0.14.0"
+js-sys = "0.3"
 leptos = { version = "0.8.17", features = ["csr"] }
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+
+[dependencies.web-sys]
+version = "0.3"
+features = ["Blob", "BlobPropertyBag", "Event", "EventTarget", "File", "FileList", "HtmlInputElement", "Url"]
